@@ -1,3 +1,34 @@
+# Usage
+
+## Running the Apps
+
+Run both frontend and backend apps from root using the following command
+
+```sh
+npm run dev
+```
+
+For testing production output, use
+
+```sh
+npm run build
+npm start
+```
+
+## Testing the Apps
+
+From the project root you can run linting and testing via the below scripts
+
+```sh
+npm run lint
+```
+
+```sh
+npm t
+```
+
+---
+
 # Limbic Fullstack Code Challenge
 
 This is Limbic’s FullStack Challenge that combines bits from the frontend and backend challenges in one.

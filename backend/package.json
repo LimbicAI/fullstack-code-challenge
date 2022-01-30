@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "tsc --project ./bin/www",
-    "start": "node ./build/index.js",
-    "dev": "nodemon index.ts",
-    "lint": "eslint .  --ignore-path .gitignore",
+    "build": "tsc --project .",
+    "start": "node ./build/bin/www.js",
+    "dev": "nodemon ./bin/www.ts",
+    "lint": "eslint .  --ignore-path ../.gitignore",
     "test": "jest"
   },
   "dependencies": {

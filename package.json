@@ -8,7 +8,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "concurrently -n BE,FE \"npm:dev --workspace backend\" \"npm:dev --workspace frontend\""
+    "dev": "concurrently -n BE,FE \"npm:dev --workspace backend\" \"npm:dev --workspace frontend\"",
+    "start": "concurrently -n BE,FE \"npm:start --workspace backend\" \"npm:start --workspace frontend\"",
+    "lint": "npm run lint --workspaces",
+    "test": "npm t --workspaces",
+    "build": "npm build --workspaces"
   },
   "author": "",
   "license": "ISC",
