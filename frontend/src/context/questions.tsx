@@ -59,7 +59,7 @@ export const reducer = (
 ): QuestionState => {
   // TODO: Replace with better deep copy
   let newState: QuestionState = JSON.parse(JSON.stringify(currentState));
-  console.log("info", "ACTION", action);
+  log("info", "ACTION", action);
 
   switch (action.type) {
     case "LIST_RESPONSE": {
@@ -69,7 +69,6 @@ export const reducer = (
     }
     case "CREATE": {
       const { question, callback } = action.payload;
-
       api.create(question).then(callback);
       break;
     }
@@ -128,7 +127,7 @@ export const reducer = (
     }
   }
 
-  console.log("info", "NEW_STATE", newState);
+  log("info", "NEW_STATE", newState);
   return newState;
 };
 
