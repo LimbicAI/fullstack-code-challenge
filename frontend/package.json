@@ -1,0 +1,46 @@
+{
+  "name": "questionnaires",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Questionnaires",
+  "author": "emortlock",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "lint": "eslint .  --ignore-path .gitignore",
+    "dev": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.3.1",
+    "@mui/material": "^5.3.1",
+    "@mui/styled-engine-sc": "^5.3.0",
+    "gatsby": "^4.5.4",
+    "gatsby-plugin-react-helmet": "^5.6.0",
+    "gatsby-plugin-styled-components": "^5.6.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^12.1.2",
+    "@types/react-helmet": "^6.1.5",
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1",
+    "eslint": "^8.8.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "jest": "^27.4.7",
+    "prettier": "^2.5.1"
+  }
+}
