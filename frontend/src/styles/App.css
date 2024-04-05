@@ -1,0 +1,38 @@
+/* App.css */
+
+/* Main container */
+.main-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Main title */
+.main-title {
+  text-align: center;
+  font-size: 48px;
+  color: #007bff; /* Primary color */
+  margin-bottom: 40px;
+}
+
+/* Main menu */
+.main-menu {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Menu item */
+.menu-item {
+  margin: 0 20px;
+  text-decoration: none;
+  font-size: 24px;
+  color: #555;
+  transition: color 0.3s ease;
+}
+
+.menu-item:hover {
+  color: #007bff; /* Hover color */
+}
