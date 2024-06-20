@@ -1,0 +1,13 @@
+{
+    "database": {
+      "name": "limbic_test",
+      "dialect": "postgres",
+      "username": "limbic_test_user",
+      "password": "1234",
+      "port": 5433,
+      "host": "localhost",
+      "logEnabled": false,
+      "forceSync": true
+    }
+  }
+  
