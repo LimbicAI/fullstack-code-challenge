@@ -1,10 +1,32 @@
+# Starting off
+
+Make sure you have docker & docker-compose installed in your machine.
+I'm using a mac, so I've utilized colima, docker, and docker compose installed by [brew](https://brew.sh/) using these links:
+
+```bash
+brew install colima
+brew install docker docker-compose
+```
+
+# To run
+
+```bash
+colima start
+docker compose build
+docker compose up
+```
+
+It will automatically setup the db instance, seed, and whatever you need to just open up the app!
+
+### CHALLENGE
+
 # Limbic Fullstack Code Challenge
 
 This is Limbic’s FullStack Challenge that combines bits from the frontend and backend challenges in one.
 
 Jane is a clinical therapist and wants her clients to answer simple questionnaires in order to better understand them. She needs a way to add/delete/edit questions and also see the answers of each client.
 
-## Backend 
+## Backend
 
 You are tasked with writing an API to create/edit/delete Users, Questions, and Answers. It should be a NodeJS/ExpressJS server with the following endpoints:
 
@@ -61,7 +83,6 @@ You are tasked with writing a React/React Native app to consume the backend API.
 🏆 **BIG PLUS:**
 
 You can use anything you want for state management. We use MobX and the Context API a lot so it's a big plus if you can also **implement some/all of the state handling with MobX and Context API**.
-
 
 ## Instructions
 

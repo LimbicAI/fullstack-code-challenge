@@ -1,0 +1,8 @@
+type Question {
+  id: Int!
+  title: String!
+  description: String!
+  author: User!
+  createdAt: Date!
+  updatedAt: Date!
+}

@@ -1,0 +1,8 @@
+type Answer {
+  id: Int!
+  answer: String!
+  question: Question!
+  author: User!
+  createdAt: Date!
+  updatedAt: Date!
+}

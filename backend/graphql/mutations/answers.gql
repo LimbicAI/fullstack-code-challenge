@@ -1,0 +1,5 @@
+extend type Mutation {
+  addAnswer(questionId: Int!, answer: String!): Answer!
+  editAnswer(answerId: Int!, answer: String!): Answer!
+  deleteAnswer(answerId: Int!): Answer!
+}
